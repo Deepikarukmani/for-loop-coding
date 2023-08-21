@@ -101,16 +101,6 @@ average= sum/i
 print(average)
 
 
-
-
-
-
-
-
-
-
-
-
 # Find even using range function
 for i in range(1, 11):
     if i%2 ==0:
