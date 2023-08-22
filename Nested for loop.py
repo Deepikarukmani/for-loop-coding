@@ -47,3 +47,21 @@ for i in range(0,n+1):
     print()
     for j in range(1,i+1):
         print(j,end="")
+
+
+# Print the rectangle using stars with R rows and C columns.
+# Sample Input :
+# 3 5
+# Sample Output :
+# * * * * *
+# * * * * *
+# * * * * *
+n = int(input())
+for i in range(n-2):
+    for j in range(n):
+        print("*", end=" ")
+    print()
+
+
+
+
